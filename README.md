@@ -9,7 +9,7 @@ Gegeben sind folgende Commands:
 
 - /exit: Schließt das Programm
 - /generate: Leitet den Anwender zur anderen Abfragen
-	> Passwortlänge
-	> Anzahl der Passwörter
-	> Modus 1 (Groß- und Kleinbuchstaben, Zahlen)
-	> Modus 2 (Modus 1 + Sonderzeichen)
+	> Passwortlänge;
+	> Anzahl der Passwörter;
+	> Modus 1 (Groß- und Kleinbuchstaben, Zahlen);
+	> Modus 2 (Modus 1 + Sonderzeichen);
