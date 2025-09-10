@@ -76,11 +76,15 @@ public class Main {
 
 
     static void configurePasswords() {
-        int pwLength, pwCount, mode;
+        int pwLength = -1, pwCount, mode;
         Scanner input = new Scanner(System.in);
 
         System.out.print(ASK_LENGTH);
         pwLength = validatePositiveInteger(input.next());
+
+        if (pwLength == -1 ) {
+            return;
+        }
         if (pwLength < 4 || pwLength > 16) {
             System.out.println(ANSI_RED + ERROR_LENGTH + ANSI_RESET);
             return;
