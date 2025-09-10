@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Passwort-Generator-Github:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Passwort_Generator_Github_jar</output-path>
+    <root id="archive" name="Passwort-Generator-Github.jar">
+      <element id="module-output" name="Passwort-Generator-Github" />
+    </root>
+  </artifact>
+</component>
