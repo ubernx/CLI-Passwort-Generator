@@ -13,3 +13,4 @@ Gegeben sind folgende Commands:
 	> Anzahl der Passwörter;
 	> Modus 1 (Groß- und Kleinbuchstaben, Zahlen);
 	> Modus 2 (Modus 1 + Sonderzeichen);
+ 	> Dateinausgabe (J/N); 
