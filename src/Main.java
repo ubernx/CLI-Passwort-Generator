@@ -181,7 +181,7 @@ public class Main {
 
         int trueInteger;
 
-        if (receivedInteger.matches("\\d")) {
+        if (receivedInteger.matches("\\d+")) {
 
             trueInteger = Integer.parseInt(receivedInteger);
 
