@@ -147,7 +147,7 @@ public class Main {
         if (pwMode == 1) charSet = ALPHANUMMERICAL;
         if (pwMode == 2) charSet = ALPHANUMMERICAL + SPECIAL;
 
-        for(int i = 0; i < pwLength; i++) {
+        for (int i = 0; i < pwLength; i++) {
 
             if (pwDigitCount > 0) {
 
@@ -181,11 +181,11 @@ public class Main {
 
         int trueInteger;
 
-        try {
+        if (receivedInteger.matches("\\d")) {
 
             trueInteger = Integer.parseInt(receivedInteger);
 
-        } catch (NumberFormatException e) {
+        } else {
 
             System.out.println(ERROR_NOT_AN_POSITIVE_INTEGER);
             return -1;
