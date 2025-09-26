@@ -41,10 +41,10 @@ public class Main {
 
 
     static Scanner parameters = new Scanner(System.in);
+    static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
         while (true) {
 
             System.out.println(MAIN_MENU);
